@@ -1,0 +1,176 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+.img-fluid{
+    max-width: 100%;
+    border-radius: 2%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    justify-content: normal;
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+.centertext{
+    color: rgb(255, 255, 255);
+}
+/*Titulos*/
+
+ h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    color: #ffffff;
+ }
+ 
+ .form-label{
+    color: #ffffff;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    color: #ffffff; 
+    
+}
+
+/*Imagen cabecera*/ 
+.custom-image {
+     width: auto; /* Ancho de 300px */
+     height: auto; /* Altura automática proporcional */
+    
+}
+
+/*Contenedor central*/
+.centered-container {
+     display: flex;
+     flex-direction: column;
+     align-items: stretch;
+     justify-content: center;
+     min-height: 100vh;
+     text-align: center;
+ }
+
+ /*Colores de los botones*/
+.btn-primary {
+    background-color: #8f6d45; /*cambia el color del boton*/
+    border-color: #000000;
+    color:rgb(255, 249, 249); 
+}
+
+.btn.btn-primary:hover {
+    background-color: #8f6d45; /*cambia el color del boton*/
+    border-color:#8f6d45;
+}
+
+.btn.btn-primary:focus {
+    background-color: #8f6d45; /*cambia el color del boton*/
+    border-color: #8f6d45;
+}
+.mpboton {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; /*posiciona los elementos uno encima de otro*/
+}
+
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    height: 20px;
+}
+footer h9{
+    margin: 0;
+}
+
+/*Colores campo numero celular*/
+.form-control:focus {
+    border-color: #ffffff; /* Cambia el color del borde en foco */
+    box-shadow: 0 0 0 0.25rem rgba(238, 129, 60, 0.25); /* Cambia el color de la sombra en foco */
+}
+
+Texto bases y condiciones*/
+/*.text-start {
+    text-align: justify;
+    text-align: left;
+    padding: 50px;
+
+}
+
+/*Estilo del quiz*/
+.full-width {
+    width: 100%;
+    padding: 10px;
+
+  }
+/*Colores botones del quiz*/
+
+
+.agradecimientos {
+    text-align: center;
+    color: #ffffff; 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+}
+
+.thankssubtitle{
+    text-align: center;
+    color: #ffffff; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+.additional-class {
+    padding: 10, 10;
+    text-align: center;
+    
+}
+
+.background-image {
+    background-image: url('/img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*texto en landing */
+h3, h5 {
+    color: #ffffff;
+}
+/*texto en footer*/
+h9 {
+    color: #333131;
+}
+
+/*Colores botones de quiz*/
+.btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+    color: #fff;
+    background-color: #ffc52a;
+    border-color: #ffc52a;
+}
+
+.btn-outline-danger {
+    color: #ffffff;
+    border-color: #ffc52a;
+}
